@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> Dog CEO / AJAX demonstration </title>
+        <link rel="stylesheet" href="./css/styles.css">
+    </head>
+    <body>
+        <h1>
+            How many dogs do you want to retrieve?
+        </h1>
+        <h2>
+            Fetch with JavaScript
+        </h2>
+        <form>
+            <label for="number-of-dogs">
+                Number of dogs:
+            </label>
+            <input type="number" id="number-of-dogs">
+            <button type="submit" class="fetch-dogs">
+                Get the doggos!
+            </button>
+        </form>
+        <h2>
+            Fetch with jQuery
+        </h2>
+        <form>
+            <label for="number-of-dogs-jquery">
+                Number of dogs:
+            </label>
+            <input type="number" id="number-of-dogs-jquery">
+            <button type="submit" class="fetch-dogs-jquery">
+                Get the doggos!
+            </button>
+        </form>
+        <div class="results"></div>
+        <script src="https://code.jquery.com/jquery-3.7.0.js" integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM=" crossorigin="anonymous"></script>
+        <script src="./js/index.js"></script>
+    </body>
+</html>
